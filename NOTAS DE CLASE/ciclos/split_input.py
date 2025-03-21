@@ -8,7 +8,6 @@
 
 numeros_str = input("Dame tres números separados por espacio: ").split()
 numeros = list(map(int, numeros_str))  # Convertimos las cadenas a enteros
-
 print(numeros)  # Imprime la lista de números como enteros
 suma = sum(numeros)  # Calcula la suma de los números
-print(f"La suma es: {numeros}")
+print(f"La suma es: {suma}")
