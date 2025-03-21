@@ -11,4 +11,4 @@ numeros = list(map(int, numeros_str))  # Convertimos las cadenas a enteros
 
 print(numeros)  # Imprime la lista de números como enteros
 suma = sum(numeros)  # Calcula la suma de los números
-print(f"La suma es: {suma}")
+print(f"La suma es: {numeros}")
